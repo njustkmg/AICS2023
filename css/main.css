@@ -27,10 +27,12 @@ section {
 h2 {
   text-align: center;
 }
-
+h3 {
+  text-align: left;
+}
 img {
-  width: 250px;
-  height: 300px;
+  width: 150px;
+  height: 180px;
 }
 .img_container {
   display: grid;
@@ -42,20 +44,22 @@ img {
   display: flex;
   justify-content: center;
 }
+.sponsor_container img {
+  margin: 20px 20px ;
+}
 .logo1{
-  width: 23%;
+  width: 30%;
   height: 55%;
 }
 .logo2{
-  width: 30%;
+  width: 10%;
   height: 75%;
 }
 .image{
-
   background-size: cover; /* 将背景图像调整为覆盖整个容器 */
   background-position: center center; /* 将背景图像定位在容器的中心 */
   border-radius: 50%; /* 将容器的边角设置为50%的值，从而将其形状变为椭圆形 */
-  margin: 10px; /* 可选，为图像添加一些间距 */
+  margin: 0px 80px ;
 }
 .img_item {
   width: 300px;
@@ -77,6 +81,13 @@ h1{
 .section-title {
   font-family: 'Open Sans', sans-serif;
   font-size: 38px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.section-title1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 2px;
