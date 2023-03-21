@@ -38,6 +38,18 @@ img {
   grid-template-rows: repeat(2, 1fr);
   gap: 10px; /* 可选：添加间隔 */
 }
+.sponsor_container {
+  display: flex;
+  justify-content: center;
+}
+.logo1{
+  width: 23%;
+  height: 55%;
+}
+.logo2{
+  width: 30%;
+  height: 75%;
+}
 .image{
 
   background-size: cover; /* 将背景图像调整为覆盖整个容器 */
